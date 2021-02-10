@@ -13,11 +13,6 @@ type application struct {
 	infoLog  *log.Logger
 }
 
-type patient struct {
-	Name     string
-	Hospital string
-}
-
 func main() {
 
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)
